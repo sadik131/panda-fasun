@@ -15,7 +15,7 @@
     <header>
         <!-- nav-bar -->
         <section>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container">
                   <a class="navbar-brand" href="#">
                       <img src="images/logo.png" alt="" srcset="">
@@ -29,13 +29,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Shose</a>
+                        <a class="nav-link" href="#shose">Shose</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                       </li>
                     </ul>
                   </div>
@@ -126,7 +126,8 @@
                 </div>
             </div>
         </div>
-        <section class="container">
+        <!-- shoes section -->
+        <section id="shose" class="container mt-5">
             <h1>Shoes</h1>
             <div class="row">
                 <div class="col-lg-4">
@@ -160,13 +161,70 @@
                   <br>
                   <button class="btn-panda mt-5">Buy now</button>
                 </div>
-        </div>
-     </div>      
             </div>
+        </div>      
+        </div>
+        </section>
+        <!-- bag section -->
+        <section id="backpack" class="container mt-5">
+            <h1>Backpack</h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card h-80 md-3 shadow ">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3 class="card-title">Red Backpack</h3>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <br>
+                          <button class="btn-panda mt-5">Buy now</button>
+                        </div>
+                </div>
+             </div> 
+             <div class="col-lg-4">
+                <div class="card h-80 md-3 shadow ">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Blue Backpack</h3>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <br>
+                      <button class="btn-panda mt-5">Buy now</button>
+                    </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="card h-80 md-3 shadow ">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Black bagpack</h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <br>
+                  <button class="btn-panda mt-5">Buy now</button>
+                </div>
+            </div>
+        </div>      
+        </div>
+        </section>
+        <section id="subscribe">
+          <div class="container background-color d-flex justify-content-center p-3 align-items-center mt-5">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more
+                </p>
+                <input class="form-control" type="text" placeholder="Enter your email">
+                <br>
+                <input class="btn-panda" type="submit" value="submit">
+              </div>
+            </div>
+          </div>
         </section>
     </main>
     <footer>
-
+        <div class="container m-5 d-flex justify-content-center">
+          <div class="row">
+            <p><small>©2025. Salatus Sadik Supto. All rights reserved. Rosni.</small></p>
+          </div>
+        </div>
     </footer>
     <!-- javascript file -->
     <script src="js/bootstrap.min.js"></script>
